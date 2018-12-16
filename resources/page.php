@@ -5,16 +5,19 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
     <title>
-        Quiz HTML page
+        LED on&off
     </title>
     
 </head>
 
 <body>
+	<h1>
+	LED ON & OFF
+	</h1>
 	<p>
 		<?php
-			$output = `ls -lart`;
-			echo "<div>$output</div>";
+			echo "Flash LED! Flash!";
+			shell_exec("python3 LED.py");
 		?>
 	</p>
 </body>
