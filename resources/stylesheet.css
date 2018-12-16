@@ -1,0 +1,95 @@
+body{
+    text-align:center;
+    background-image:url('bkgrnd.jpg');
+}
+
+h1{
+    font-size:300%;
+    background-color:blanchedalmond;
+    color:rgba(10, 10, 9, 0.753);
+}
+
+h2{
+    font-size:200%;
+    background-color:blanchedalmond;
+    color:rgba(10, 10, 9, 0.753);
+}
+
+h3{
+    font-size:175%;
+    background-color:rgba(255, 255, 255, 0.849);
+    color:rgba(10, 10, 9, 0.753);
+}
+
+p{
+    font-size:115%;
+    background-color:rgba(255, 255, 255, 0.849);
+    color:rgba(10, 10, 9, 0.753);
+}
+
+label{
+    font-size:115%;
+    background-color:rgba(255, 255, 255, 0.849);
+    color:rgba(10, 10, 9, 0.753);
+}
+
+table{
+    border:2px solid rgba(10, 10, 9, 0.753);
+    background-color:blanchedalmond;
+    color:rgba(10, 10, 9, 0.753);
+    font-size:150%;
+    padding:15px;
+    margin-left:auto; 
+    margin-right:auto;
+    width:60%;
+}
+th{
+    border:2px solid rgba(10, 10, 9, 0.753);
+    padding:10px;
+}
+
+td{
+    border:2px solid rgba(10, 10, 9, 0.753);
+    padding:5px;
+}
+
+.bigger{
+    font-size: 150%;
+}
+
+.cptn{
+    font-size:75%;
+    font-family:courier;
+}
+
+.slidecontainer{
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px;
+    background-image:url('spectrum.png');
+    outline: none; /* Remove outline */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: gold;
+    cursor: pointer; /* Cursor on hover */
+    border:2px solid rgba(10, 10, 9, 0.753);
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: gold;
+    cursor: pointer; /* Cursor on hover */
+    border:2px solid rgba(10, 10, 9, 0.753);
+}
